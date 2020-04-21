@@ -16,13 +16,41 @@
 # end 
 # puts "oh, where sunscreen"
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cf36278625a0dffda517b394628d7b051ca8e488
 current_time = Time.now
 
 if current_time.to_i % 2 == 0
   puts "Even!"
 else current_time.to_i % 2 == 1 
   puts "Odd!"
+<<<<<<< HEAD
 end 
+=======
+end
+#//////////// OR ////////////
+current_time = Time.now
+current_time = current_time.to_i
+
+if current_time % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
+end
+
+# ///////// OR OR ////////////
+
+current_time = Time.now
+current_time = current_time.to_i
+
+if current_time.even
+  puts "Even!"
+else
+  puts "Odd!"
+end
+
+>>>>>>> cf36278625a0dffda517b394628d7b051ca8e488
 
